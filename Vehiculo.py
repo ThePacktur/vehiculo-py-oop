@@ -43,9 +43,9 @@ class Vehiculo:
     #str = imprimir todo los contenidos.
 
     def __str__(self):
-        txt = f"Modelo: {self.__modelo}"
-        txt = f"Marca: {self.__marca}"
-        txt = f"anio: {self.__anio}"
-        txt = f"cc: {self.__cc}"
-        txt = f"n_ruedas: {self.__n_ruedas}"
+        txt += f"Modelo: {self.__modelo}"
+        txt += f"Marca: {self.__marca}"
+        txt += f"anio: {self.__anio}"
+        txt += f"cc: {self.__cc}"
+        txt += f"n_ruedas: {self.__n_ruedas}"
         return txt
